@@ -4,7 +4,7 @@
 #include<sys/socket.h>
 #include<arpa/inet.h>
 int main(int argc, char **argv){
-    int sockid, new_sock,n;
+    int sockid, new_sock,c;
     char file[2000],mes[2000];
     struct sockaddr_in server, client;
     FILE *fp;
